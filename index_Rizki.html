@@ -139,10 +139,10 @@
                     <div class="skill mb-4">
                         <div class="d-flex justify-content-between">
                             <h6 class="font-weight-bold">Tugas 3</h6>
-                            <h6 class="font-weight-bold">0%</h6>
+                            <h6 class="font-weight-bold">selesai</h6>
                         </div>
                         <div class="progress">
-                            <div class="progress-bar bg-danger" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+                            <div class="progress-bar bg-danger" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
                         </div>
                     </div>
                 </div>
@@ -283,6 +283,72 @@
                                 c. Jaringan dengan lapisan kompetitif (competitive layer net)</br>
                                 Umumnya, hubungan antar neuron pada lapisan kompetitif ini tidak diperlihatkan pada diagram arsitektur.
                             </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Qualification End -->
+
+
+
+    <!-- Qualification Start -->
+    <div class="container-fluid py-5" id="qualification">
+        <div class="container">
+            <div class="position-relative d-flex align-items-center justify-content-center">
+                <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">Tugas 3</h1>
+                <h1 class="position-absolute text-uppercase text-primary">Tugas 3</h1>
+            </div>
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <h3 class="mb-4">Tugas 3</h3>
+                    <div class="border-left border-primary pt-2 pl-4 ml-2">
+                        <div class="position-relative ex-me mb-4">
+                            <i class="far fa-dot-circle text-primary position-absolute" style="top: 2px; left: -35px; font-size: 22px;"></i>
+                            <h5 class="font-weight-bold mb-1">Sebutkan dan jelaskan beberapa contoh perangkat keras yang mengimplementasikan model jaringan syaraf tiruan!</h5>
+                            <p>a.Implementasi Jaringan Syaraf Tiruan untuk Mengendalikan Lampu Sein Pada Sepeda 
+                                Motor</br>
+                                Metode Jaringan Syaraf Tiruan yang akan mematikan lampu sein secara otomatis melalui beberapa kondisi tertentu. Metode kontrol jaringan syaraf tiruan yang digunakan adalah Backpropagation yang dikembangakan dan diuji simulasi dengan MATLAB 2017a</br>
+                                b.Implementasi Jaringan Saraf Tiruan Berbasis Ram Pada Robot Wall Follower Dengan 
+                                Algoritma Maze Mapping Untuk Menentukan Rute Tercepat.</br>
+                                Robot wall follower yang bernavigasi mengikuti dinding harus mempelajari posisi dinding disekitarnya agar dapat bernavigasi dengan aman tanpa merusak dinding. Pembelajaran jarak posisi dinding akan menggunakan metode jaringan saraf tiruan berbasis ram. Terdapat 3 ram node untuk menyimpan pola dari sensor kiri, sensor kanan dan sensor depan. 8 bit pola masukan yang diterima akan dioptimasi sehingga hanya 4 bit yang tersimpan pada ram node. Sehingga proses komputasi lebih sederhana.</br>
+                            </p>
+                        </div>
+                        <div class="position-relative ex-me mb-4">
+                            <i class="far fa-dot-circle text-primary position-absolute" style="top: 2px; left: -35px;  font-size: 22px;"></i>
+                            <h5 class="font-weight-bold mb-1">Hal apa saja yang perlu diperhatikan dalam pemilihan paradigma?   </h5>
+                            <p>a) Ukuran jaringan</br>
+                                Pada saat mendesain jaringan saraf tiruan, kebutuhan node dan lapisan dapat diperkirakan. Untuk jaringan berukuran besar maka tentunya tidak mungkin menggunakan metode pembelajaran yang hanya menampung jaringan kecil. Seperti teknik Hopfield menampung, jaringan yang lebih kecil dari Teknik propagasi yang mampu menampung jaringan yang berukuran lebih besar. Kapasitas pola yang bisa disimpan jaringan propagasi balik relatif lebih besar dari pada jaringan Hopfield..</br>
+                                b) Pembawaan input dan output</br>
+                                Pembawaan input dan output, misalnya matriks angka sesuai untuk optimisasi, diskrit untuk klasiifikasi dan pengenalan pola.</br>
+                                c) Mekanisme memori</br>
+                                Mekanisme memori ada dua macam, yaitu memori autoasosiatif dan metode heteroasosiatif.</br>
+                                • Memori Autoasosiatif, mengambil informasi secara parsial yang kemudian digunakan untuk merekonstruksi pola yang sudah tersimpan sebelumnya. Karena setiap pola diasosiasikan dengan dirinya sendiri. Jika suatu ketika input yang kurang lengkap dimasukkan ke dalam jaringan, pola yang tepat masih tetap bisa dipanggil.</br>
+                                • Memori heteroasosiatif merupakan sebuah jaringan saraf yang didesain menghubungkan pasangan pola input dengan pola output, dimana pola input dan pola outputnya tidak sama.</br>
+                                d) Tipe pelatihan : terawasi dan tidak terawasi.</br>
+                                • Pelatihan terawasi: pelatihan yang menghadirkan pelatihan serangkaian vector input pelatihan yang masing-masing berhubungan dengan vektor output yang menjadi targetnya.</br>
+                                • Pelatihan tidak terawasi neural network yang mengorganisasikan dirinya sendiri membentuk vektor input yang sama tanpa menggunakan data pelatihan untuk menunjukkan vektor tersebut termasuk ke dalam kelompok yang mana.</br>
+                                e) Batasan waktu operasi rutin dari sistem berjalan</br>
+                                Batasan waktu berbeda-beda tergantung dari model dan ukuran jaringan serta kualitas input data.</br>
+                        </p>
+                        </div>
+                        <div class="position-relative ex-me mb-4">
+                            <i class="far fa-dot-circle text-primary position-absolute" style="top: 2px; left: -35px;  font-size: 22px;"></i>
+                            <h5 class="font-weight-bold mb-1">Sebutkann 3 aspek deklaratif dalam verifikasi jaringan syaraf tiruan?</h5>
+                            <p>J1. Jaringan</br>
+                                a) Apakah arsitektur neural network berbentuk lapisan tunggal atau 
+                                multilapis ?</br>
+                                b) Apakah aliran informasi jaringan adalah umpan maju atau berulang?</br>
+                                c) Apakah pola terhubung penuh atau sebagian?</br>
+                                2. Unit</br>
+                                a) Bagaimana koneksi inputnya?</br>
+                                b) Bagaimana koneksi outputnya?</br>
+                                c) Mengenai non linier itu apakah hard limit atau sigmoid atau tangen 
+                                hiperbola?</br>
+                                3. Perilaku</br>
+                                a) Bagaimana inisialisasi bobotnya?</br>
+                                b) Bagaimana perhitungan aktivasinya?</p>
                         </div>
                     </div>
                 </div>
